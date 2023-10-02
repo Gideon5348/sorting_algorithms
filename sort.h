@@ -3,10 +3,10 @@
 
 #include <stddef.h>
 
-/* Function prototype for bubble_sort */
 void bubble_sort(int *array, size_t size);
-
-/* Other function prototypes, if any, for additional sorting algorithms */
+void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+void insertion_sort_list(listint_t **list);
 
 /**
  * struct listint_s - Doubly linked list node
